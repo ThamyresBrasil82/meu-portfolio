@@ -219,10 +219,11 @@ header::before {
     min-height: auto;
     padding-bottom: 7rem;
     background: #081b29;
-    margin-left: 100px;
-    margin-right: 100px;
+    /*margin-left: 100px;
+    margin-right: 100px;*/
     display: block;
     justify-content: center;
+    align-items: center;
 }
 
 .skills .skills-row {
@@ -586,3 +587,18 @@ header::before {
 .nome_rodape{
     color: #fff;
 }
+
+@media screen and (max-width: 1201px){
+    /* cabeçalho */
+    .navbar{
+        display: none;
+    }
+    .home{
+        margin-top: 100px;
+    }
+    .about-img{
+        width: 450px;
+        height: auto;
+    }
+}
+    
