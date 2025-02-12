@@ -1,3 +1,4 @@
+
 new Swiper('.card-wrapper', {
     // Optional parameters
     
@@ -32,5 +33,6 @@ new Swiper('.card-wrapper', {
   
   
   });
+
 
   document.getElementById('copyright-year').textContent = new Date().getFullYear();
